@@ -1,0 +1,79 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(5, 11, 17);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 85vh;
+            caret-color: transparent;
+        }
+        .screen {
+            width: 350px; margin: 0 auto; padding: 10px; border-radius: 20px;
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+        }
+        h1, h3 ,h2,p{
+            text-align: center;
+            color: #f8ab62;
+        }
+        table {
+            margin-top: 20px;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        ul{
+            width: fit-content;
+            margin: 0 auto;
+            text-align: left;
+        }
+        li{
+            padding: 5px;
+            font-size: 18px;
+        }
+        button {
+            border-radius: 20px;
+            color: #fff;
+            background-color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: rgb(154, 173, 255);
+            transform: scale(1.1);
+            transition: transform 0.5s ease;
+        }
+        #welcome{
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            width: 700px;
+        }
+        #rules{
+            color: #e4bb4a;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            width: 500px;
+        }
+        #game{
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        #results{
+            text-align: center;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            width: 400px;
+        }
+        #thanks{
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
