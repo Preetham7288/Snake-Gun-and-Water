@@ -100,6 +100,6 @@ let welcome=document.getElementById("welcome");
             whatever.textContent="HAHA Loser, try harder🥀";
         }
         else{
-            whatever.textContent="You Won, 💩 there you go brother you earned it";
+            whatever.textContent="You Won, 💋 there you go brother you earned it";
         }
     });
